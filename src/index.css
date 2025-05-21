@@ -11,4 +11,9 @@
   .outline-btn {
     @apply border-[3px] rounded-xl px-6 py-2;
   }
+
+  .glowing-shadow {
+    @apply shadow-[0px_0px_40px_10px_#d2e6ff,
+    inset_0px_0px_40px_10px_#d2e6ff];
+  }
 }
