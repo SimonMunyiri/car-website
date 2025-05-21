@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+
+@layer base {
+  .text-outline {
+    -webkit-text-stroke: 2px white;  
+  }
+}
+
+@layer components {
+  .outline-btn {
+    @apply border-[3px] rounded-xl px-6 py-2;
+  }
+}
